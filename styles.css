@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 1rem ;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:bolder;
+}
+
+nav{
+    border: 2px dashed black;
+    margin: 5rem auto;
+    max-width: 500px;
+    border-radius: 2rem;
+}
+
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    background-color: hsla(51, 100%, 50%, 0.682);
+    border-radius: 2rem 2rem 0 0;
+    
+}
+h1:hover{
+    cursor: pointer;
+    font-size: 5rem;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #eee;
+    border-radius: 0 0 2rem 2rem;
+}
+
+li a{
+    border-top: black 2px dashed;
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+}
+
+li a:hover{
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-size: 3.5rem;
+    
+}
+
+li.last-list-item a{
+    border-top: none;
+    border-radius: 0 0 2rem 2rem;
+}
+
+li a:active{
+    background-color: hsla(180, 100%, 50%, 0.117);
+}
+
+ol{
+    list-style-type: none;
+}
+
+ol li a{
+    border-top: none;
+    font-size: 2rem;
+    background-color: hsla(0, 0%, 50%, 0.125);
+}
+
+ol li a:hover{
+    background-color: hsla(0, 0%, 50%, 0.5);
+    font-size: 2.5rem;
+}
+
+ol li a:active{
+    background-color: hsla(180, 100%, 50%, 0.117);
+}
